@@ -1,0 +1,19 @@
+{
+  "name": "lambda.lenses",
+  "version": "1.0.0",
+  "description": "Kmett style lenses in your face!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarasowski/lambda.lenses.git"
+  },
+  "author": "Dimitri Tarasowski <dimitri+npm@tarasowski.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarasowski/lambda.lenses/issues"
+  },
+  "homepage": "https://github.com/tarasowski/lambda.lenses#readme"
+}
