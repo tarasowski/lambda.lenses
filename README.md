@@ -43,3 +43,23 @@ const setName = set(nameLense, 'flavio', user) // > { id: 1, name: "flavio" }
 
 const capName = over(nameLense, toUpper, setName) // > { id: 1, name: "FLAVIO" }
 ```
+```js
+const obj = {
+  people: {
+    me: {
+      friends: [
+        { name: 'Kike', brother: true },
+        { name: 'Samuel' },
+        { name: 'José' },
+        { name: 'Josué' },
+      ],
+      habilities: [],
+    },
+  },
+}
+
+const bf = lensPath(['people', 'me', 'friends', 0, 'name'])
+
+view(bf, obj) // > Kike
+set(bf, 'Mike', obj) // > Object(...[{name:'Mike'}])
+```
